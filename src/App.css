@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.boards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
