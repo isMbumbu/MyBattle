@@ -59,7 +59,7 @@ label {
 }
 
 .toggleButton {
-    background-color: #a64d79;
+    background-color: #7fb7c7;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -70,7 +70,7 @@ label {
 }
 
 .toggleButton:hover {
-    background-color: #6a1e55;
+    background-color: #1c7791;
 }
 
 /* Add extra padding and margins for the login form for consistency */
