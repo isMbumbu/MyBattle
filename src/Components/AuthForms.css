@@ -1,0 +1,80 @@
+.authContainer {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+#name, .formContent input {
+    border-radius: 20px;
+    border: solid 1px #7b7b85;
+    color: #1a1a1d;
+    font-size: 10px;
+    padding: 10px; /* Increased padding for better spacing */
+    margin: 5px 0; /* Added margin for spacing between inputs */
+    background: linear-gradient(to bottom right, #ddf2fd, #9bbec8);
+    width: 70%; /* Ensures the inputs take full width of the form */
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px; /* Added margin for space between label and input */
+    color: #1a1a1d;
+}
+
+/* Initially, both forms are hidden */
+.formContent {
+    display: none;
+}
+
+/* Show the first form (Register) */
+.formWrapper .formContent:nth-child(1) {
+    display: block;
+}
+
+/* Show the second form (Login) when 'showLogin' is active */
+.formWrapper.showLogin .formContent:nth-child(2) {
+    display: block;
+}
+
+.toggleContainer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.toggleButton {
+    background-color: #a64d79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.toggleButton:hover {
+    background-color: #6a1e55;
+}
+
+/* Add extra padding and margins for the login form for consistency */
+.logInForm {
+    padding: 10px;
+    margin: 10px;
+}

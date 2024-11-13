@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "f39f",
+      "name": "Andrew Ambuka",
+      "email": "andrewambuka9@gmail.com",
+      "password": "mbumbu"
+    },
+    {
+      "id": "428e",
+      "name": "ibrahim hassan",
+      "email": "ibrahim@gmail.com",
+      "password": "aszx"
+    },
+    {
+      "id": "85df",
+      "name": "lisa auta",
+      "email": "lisaauta028@gmail.com",
+      "password": "c0mput3rs"
+    },
+    {
+      "id": "5018",
+      "name": "shaline chepkoech",
+      "email": "chepkoechshaline726@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "07d6",
+      "name": "den",
+      "email": "andrewambuka9@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "132e",
+      "name": "Andrew Ambuka",
+      "email": "andrewambuka9@gmail.com",
+      "password": "MBUMBU"
+    },
+    {
+      "id": "5197",
+      "name": "Andrew Ambuka",
+      "email": "andrewambuka9@gmail.com",
+      "password": "MBUMBU"
+    },
+    {
+      "id": "0130",
+      "name": "blessing",
+      "email": "mwendwablessingm@gmail.com",
+      "password": "blessing123"
+    }
+  ]
+}

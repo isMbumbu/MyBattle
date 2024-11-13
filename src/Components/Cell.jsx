@@ -60,6 +60,7 @@ export default Cell;*/
 
 import React from "react";
 
+
 function Cell({ x, y, cell, onClick, isPlayer }) {
   let cellStyle = {};
 
